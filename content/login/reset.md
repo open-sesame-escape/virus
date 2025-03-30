@@ -52,9 +52,9 @@ date: '2025-03-30T16:32:52-04:00'
     const month = document.getElementById('month').value;
     const child = document.getElementById('child').value;
 
-    if ((foods.toUpperCase() === 'CANDY') &&
-        (month.toUpperCase() === 'MARCH') &&
-        (child.toUpperCase() === 'JOHNY')) {
+    if ((foods.trim().toUpperCase() === 'CANDY') &&
+        (month.trim().toUpperCase() === 'MARCH') &&
+        (child.trim().toUpperCase() === 'TYLER')) {
       // Redirect to success page
       window.location.href = '../reset-success';
     } else {

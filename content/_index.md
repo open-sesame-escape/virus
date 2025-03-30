@@ -9,3 +9,4 @@ remote described at https://www.open-sesame.xyz/rooms/virus/.
 ## Content
 
 * [Help email](help-email)
+* [Login puzzle](login)

@@ -21,6 +21,15 @@ date: '2025-03-30T15:23:00-04:00'
       /*font-size: 14px;*/
       z-index: 1000; /* Ensures the popup appears above other elements */
     }
+    label {
+      font-size: x-large;
+    }
+    input {
+      font-size: x-large;
+    }
+    button {
+      font-size: x-large;
+    }
   </style>
   <form id="login-form">
     <label for="name">Username:</label>
@@ -44,5 +53,10 @@ date: '2025-03-30T15:23:00-04:00'
     }, 5000);
   });
 </script>
+
+Do not share your password with anyone. It is crucial to keep your passwords
+private to protect your personal information and accounts from unauthorized
+access. Always keep your passwords secure and use strong, unique ones for each
+account. We will never ask you to disclose your password.
 
 [Reset Password](reset)

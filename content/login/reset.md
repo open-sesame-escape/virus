@@ -21,6 +21,15 @@ date: '2025-03-30T16:32:52-04:00'
       /*font-size: 14px;*/
       z-index: 1000; /* Ensures the popup appears above other elements */
     }
+    label {
+      font-size: large;
+    }
+    input {
+      font-size: large;
+    }
+    button {
+      font-size: large;
+    }
   </style>
   <form id="login-form">
     <p>
